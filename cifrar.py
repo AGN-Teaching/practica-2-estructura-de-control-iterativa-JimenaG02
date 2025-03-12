@@ -1,5 +1,5 @@
 # Plantilla cifrar.py
-# Plantilla cifrar.py
+
 import random
 
 k = random.randint(3,15)
