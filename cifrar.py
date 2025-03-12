@@ -1,7 +1,7 @@
 import random
 
-k = random.randint(3,15)
-
+#k = random.randint(3,15)
+k=3
 mensaje = str(input("Dame el mensaje a cifrar: "))
 
 tamanio= len(mensaje)
@@ -9,8 +9,8 @@ tamanio= len(mensaje)
 cifrado =""
 
 
-
 print("El desplazamiento fue de :",k)
+
 
 for i in  range (0, tamanio):
 
@@ -23,5 +23,6 @@ for i in  range (0, tamanio):
         cifrado += chr(ord(mensaje[i] ) + k )
 
 print(str(cifrado))
+
 
 
